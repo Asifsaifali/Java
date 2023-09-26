@@ -5,7 +5,6 @@ class ReverseArray{
         
                 System.out.println("Before reverse");    
         int temp;
-        // System.out.println("------Before Update------");
         for(int k:arr){
             System.out.println(k);
         }
