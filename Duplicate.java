@@ -5,15 +5,13 @@ public class Duplicate {
         int i,j;
         int l=arr.length;
 
-        for(i=0,j=i+1;i<arr.length;i++){
-            if(arr[i]!=arr[j]){
-                arr[i]=arr[j];
-                // j++;
-                l--;
-            }else{
-                j++ ;
+        for(i=1,j=i;i<arr.length;i++){
+            if(arr[i]!=arr[i-1]){
+                arr[j]=arr[i];
+                j++;
             }
         }
+        System.out.println(j);
         for(int k:arr){
             System.out.print(k +" ");
         }

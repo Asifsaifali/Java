@@ -1,3 +1,5 @@
+//Added prev value to the current value;
+
 public class NewDemo {
     public static void main(String[] args){
 
