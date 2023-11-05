@@ -22,7 +22,6 @@ class kidWithLargerCandy{
                   }else{
                     count = 0;
                   }
-                // count = maxCandy >= arr[j] ? count++ : 0;
                 }
                 if(count == arr.length) {
                     value.add(true);
